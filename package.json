@@ -1,10 +1,16 @@
 {
-  "name": "live-stream-api",
+  "name": "laoren-api",
   "version": "1.0.0",
+  "description": "直播间红黑榜API",
+  "main": "api/server.js",
   "scripts": {
+    "dev": "json-server --watch db.json --port 3000",
     "start": "node api/server.js"
   },
   "dependencies": {
     "json-server": "^0.17.3"
+  },
+  "engines": {
+    "node": ">=16.x"
   }
 }
